@@ -62,12 +62,7 @@ header{
     height:auto;
     margin-right: 100px;
 }
-.brand h1{
-    font-size:18px; 
-    margin:0; 
-    letter-spacing:.4px; 
-    font-weight:700
-}
+
 nav ul{
     display:flex; 
     list-style:none; 
@@ -100,10 +95,10 @@ nav a:hover{
     position:absolute; 
     inset:0; 
     z-index:-1;
-    background-image: url('/imgs/fondo_pantalla.png');
+    background-image: url('/imgs/fondo_pantalla.jpg');
     background-size:cover; 
     background-position:center; 
-    opacity:.14; 
+    opacity:.44; /*.14*/
     mix-blend-mode:overlay;
     filter: saturate(90%) contrast(105%);
 }
@@ -129,7 +124,7 @@ nav a:hover{
     border-radius:99px; 
     box-shadow:0 0 0 4px rgba(16,185,129,.12)
 }
-.hero h2{
+.hero h1{
     font-size: clamp(28px, 4.6vw, 46px); 
     line-height:1.1; 
     margin:10px 0 12px
@@ -201,7 +196,7 @@ section{
     padding:22px; 
     box-shadow: var(--shadow)
 }
-.card h4, .card img{
+.card h4, .card img, .card p{
     display: block;
     margin-left: auto;
     margin-right: auto;

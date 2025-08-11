@@ -1,13 +1,212 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evolut Platform</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Evolut Platform — Conectando Talento y Construcción Industrializada</title>
+	<meta name="description" content="Evolut Platform conecta equipos instaladores formados en sistemas industrializados con fabricantes y constructores. Formación, estandarización y rendimiento en obra." />
+	<meta name="theme-color" content="#0f172a" />
+	<meta property="og:title" content="Evolut Platform" />
+	<meta property="og:description" content="Conectando Talento y Construcción Industrializada" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="/imgs/logo.png" />
+	<link rel="icon" href="/imgs/logo.png" />
+	<link rel="stylesheet" href="styles.css">
+	<script src="/main.js"></script>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+	<header>
+	<div class="container nav">
+		<a class="brand" href="#inicio" aria-label="Ir a inicio">
+		<img src="/imgs/logo.png" alt="Logo de Evolut Platform"/>
+		<!--<h1>Evolut Platform</h1>-->
+		</a>
+		<button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileNav">Menú</button>
+		<nav aria-label="Principal">
+		<ul>
+			<li><a href="#inicio">Inicio</a></li>
+			<li><a href="#vision">Visión</a></li>
+			<li><a href="#servicios">Servicios</a></li>
+			<li><a href="#cursos">Cursos</a></li>
+			<li><a href="#contacto">Contacto</a></li>
+		</ul>
+		</nav>
+	</div>
+	<div class="mobile-nav" id="mobileNav" role="dialog" aria-label="Navegación móvil">
+		<a href="#inicio">Inicio</a>
+		<a href="#vision">Visión</a>
+		<a href="#servicios">Servicios</a>
+		<a href="#cursos">Cursos</a>
+		<a href="#contacto">Contacto</a>
+	</div>
+	</header>
+
+	<main id="inicio" class="hero">
+	<div class="container hero-grid">
+		<div>
+		<span class="kicker"><span class="dot"></span> Beta • MVP</span>
+		<h2>Conectando Talento y Construcción Industrializada</h2>
+		<p class="subtitle">Formación intensiva, estandarización de montaje y equipos cualificados disponibles para fabricantes y constructores. Evolut mide rendimiento en obra y acelera la adopción de sistemas industrializados.</p>
+		<div class="cta">
+			<a class="btn primary" href="#contacto">Quiero más información</a>
+			<a class="btn ghost" href="#vision">Cómo funciona</a>
+		</div>
+		</div>
+		<aside class="hero-card" aria-label="Puntos clave">
+		<h3>¿Por qué Evolut?</h3>
+		<ul>
+			<li>Resolvemos la <strong>escasez de mano de obra</strong> cualificada.</li>
+			<li>Estandarizamos procesos de <strong>montaje</strong> y <strong>calidad</strong>.</li>
+			<li>Seguimiento de <strong>rendimiento por proyecto</strong>.</li>
+			<li><strong>Formación</strong> práctica en sistemas industrializados (Steel Frame, etc.).</li>
+		</ul>
+		</aside>
+	</div>
+	</main>
+
+	<section id="vision">
+	<div class="container">
+		<h3 class="sec-head">Visión</h3>
+		<div class="grid-3">
+		<div class="card">
+			<h4>El problema</h4>
+			<p class="muted">La construcción industrializada crece, pero faltan equipos formados y estándares claros de instalación. Esto retrasa proyectos y encarece costes.</p>
+		</div>
+		<div class="card">
+			<h4>La solución</h4>
+			<p class="muted">Una plataforma que <strong>forma</strong>, <strong>certifica</strong> y <strong>mide</strong> a equipos instaladores, conectándolos con fabricantes y obras que necesitan resultados consistentes.</p>
+		</div>
+		<div class="card">
+			<h4>El impacto</h4>
+			<p class="muted">Más productividad, menos errores y datos reales para decidir precios, tiempos y dimensionamiento de equipos.</p>
+		</div>
+		</div>
+		<div class="steps" style="margin-top:22px">
+		<div class="step">
+			<span class="num">1</span>
+			<strong>Formación enfocada</strong>
+			<p class="muted">Cursos intensivos por sistema constructivo, con checklist de calidad y práctica en montaje real.</p>
+		</div>
+		<div class="step">
+			<span class="num">2</span>
+			<strong>Proyectos con seguimiento</strong>
+			<p class="muted">Planillas digitales y métricas de instalación por proyecto, equipo y fase.</p>
+		</div>
+		<div class="step">
+			<span class="num">3</span>
+			<strong>Conexión con la demanda</strong>
+			<p class="muted">Equipos disponibles inmediatamente para fabricantes y constructores.</p>
+		</div>
+		</div>
+	</div>
+	</section>
+
+	<section id="servicios">
+	<div class="container">
+		<h3 class="sec-head">Servicios</h3>
+		<div class="grid-3">
+		<div class="card">
+			<h4>Academia Evolut</h4>
+			<p class="muted">Programas de formación y certificación por sistema industrializado. Material didáctico + práctica.</p>
+		</div>
+		<div class="card">
+			<h4>Rendimiento en obra</h4>
+			<p class="muted">Seguimiento estandarizado de productividad, calidad y seguridad. Datos para fijar precios óptimos.</p>
+		</div>
+		<div class="card">
+			<h4>Conexión B2B</h4>
+			<p class="muted">Matching entre equipos certificados y fabricantes/constructores que necesitan instalar.</p>
+		</div>
+		</div>
+		<div class="band" style="margin-top:22px">
+		<strong>¿Eres fabricante o constructor?</strong>
+		<div class="cta">
+			<a class="btn" href="#contacto">Solicita una llamada</a>
+			<a class="btn ghost" href="#cursos">Ver programa formativo</a>
+		</div>
+		</div>
+	</div>
+	</section>
+
+	<section id="cursos">
+	<div class="container">
+		<h3 class="sec-head">Cursos (primeras ediciones)</h3>
+		<div class="grid-3">
+		<div class="card">
+			<h4>Instalador Steel Frame — Nivel 1</h4>
+			<ul>
+			<li>Montaje de paneles y replanteo</li>
+			<li>Uniones, nivelado y arriostramiento</li>
+			<li>Checklists de calidad</li>
+			</ul>
+		</div>
+		<div class="card">
+			<h4>Seguridad y herramientas</h4>
+			<ul>
+			<li>EPP y procedimientos</li>
+			<li>Herramientas específicas</li>
+			<li>Buenas prácticas de obra</li>
+			</ul>
+		</div>
+		<div class="card">
+			<h4>Gestión de rendimiento</h4>
+			<ul>
+			<li>Partes diarios y métricas</li>
+			<li>Tiempos estándar por tarea</li>
+			<li>Reporte por equipo</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+	</section>
+
+	<section id="contacto">
+	<div class="container">
+		<h3 class="sec-head">Contacto</h3>
+		<div class="grid-3">
+		<div class="card" style="grid-column: span 2">
+			<h4>Cuéntanos qué necesitas</h4>
+			<!-- Nota: para entornos sin backend, se usa mailto. Cuando migres a backend, cambia action y method. -->
+			<form action="mailto:info@evolutplatform.es?subject=Consulta%20desde%20la%20web%20Evolut%20Platform" method="post" enctype="text/plain">
+			<label for="name">Nombre</label>
+			<input id="name" name="Nombre" type="text" required placeholder="Tu nombre" aria-required="true" />
+			<label for="email">Email</label>
+			<input id="email" name="Email" type="email" required placeholder="tucorreo@ejemplo.com" aria-required="true" />
+			<label for="type">Soy</label>
+			<select id="type" name="Perfil">
+				<option>Fabricante</option>
+				<option>Constructor</option>
+				<option>Equipo instalador</option>
+				<option>Otro</option>
+			</select>
+			<label for="msg">Mensaje</label>
+			<textarea id="msg" name="Mensaje" rows="5" required placeholder="Cuéntanos tu caso"></textarea>
+			<div class="cta">
+				<button type="submit" class="btn primary">Enviar</button>
+				<button type="reset" class="btn ghost">Limpiar</button>
+			</div>
+			</form>
+		</div>
+		<div class="card">
+			<img src="/imgs/logo.png" alt="logo evolutplatform">
+			<h4>Información</h4>
+			<p class="muted">Correo: <a href="mailto:info@evolutplatform.es">admin@evolutplatform.com</a></p>
+			<p class="muted">Operamos en ES • UK • US • PY</p>
+			<p class="muted">EVOLUT PLATFORM LLC (Wyoming, USA)</p>
+			
+		</div>
+		</div>
+	</div>
+	</section>
+
+	<footer>
+	<div class="container foot">
+		<div style="display:flex; align-items:center; gap:10px">
+		<img src="/imgs/logo.png" alt="Logo Evolut" width="50"/>
+		<small>© <span id="y"></span> Evolut Platform. Todos los derechos reservados.</small>
+		</div>
+		<small><a href="#inicio">Volver arriba</a></small>
+	</div>
+	</footer>
 </body>
 </html>

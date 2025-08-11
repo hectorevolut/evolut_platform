@@ -1,33 +1,36 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Evolut Platform — Conectando Talento y Construcción Industrializada</title>
-	<meta name="description" content="Evolut Platform conecta equipos instaladores formados en sistemas industrializados con fabricantes y constructores. Formación, estandarización y rendimiento en obra." />
+	<title>Evolut Platform — Connecting Talent and Industrialized Construction</title>
+	<meta name="description" content="Intensive training, standardized installation, and qualified crews for manufacturers and builders. Evolut tracks on-site performance and accelerates the adoption of industrialized systems." />
 	<meta name="theme-color" content="#0f172a" />
 	<meta property="og:title" content="Evolut Platform" />
 	<meta property="og:description" content="Connecting Talent and Industrialized Construction" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="/imgs/logo.png" />
+    <link rel="canonical" href="https://evolutplatform.es/index_en.html" />
+    <link rel="alternate" hreflang="es" href="https://evolutplatform.es/" />
+    <link rel="alternate" hreflang="en" href="https://evolutplatform.es/index_en.html" />
 	<link rel="icon" href="/imgs/logo.png" />
 	<link rel="stylesheet" href="styles.css">
-	<script src="/main.js"></script>
+	<script src="/main.js" defer></script>
 </head>
 <body>
 	<header>
 	<div class="container nav">
-		<a class="brand" href="#inicio" aria-label="Ir a inicio">
-		<img src="/imgs/logo.png" alt="Logo de Evolut Platform"/>
+		<a class="brand" href="#home" aria-label="Go to home">
+		<img src="/imgs/logo.png" alt="Evolut Platform logo"/>
 		</a>
-		<button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileNav">Menú</button>
-		<nav aria-label="Principal">
+		<button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileNav">Menu</button>
+		<nav aria-label="Primary">
 		<ul>
-			<li><a href="#inicio">Home</a></li>
+			<li><a href="#home">Home</a></li>
 			<li><a href="#vision">Vision</a></li>
-			<li><a href="#servicios">Services</a></li>
-			<li><a href="#cursos">Courses</a></li>
-			<li><a href="#contacto">Contact</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#courses">Courses</a></li>
+			<li><a href="#contact">Contact</a></li>
 		</ul>
 		</nav>
         <!-- Selector de idioma en el header -->
@@ -36,27 +39,27 @@
 			<a href="index_en.html" hreflang="en" class="btn ghost">🇺🇸</a>
 		</div>
 	</div>
-	<div class="mobile-nav" id="mobileNav" role="dialog" aria-label="Navegación móvil">
-		<a href="#inicio">Home</a>
+	<div class="mobile-nav" id="mobileNav" role="dialog" aria-label="Mobile navigation">
+		<a href="#home">Home</a>
 		<a href="#vision">Vision</a>
-		<a href="#servicios">Services</a>
-		<a href="#cursos">Courses</a>
-		<a href="#contacto">Contact</a>
+		<a href="#services">Services</a>
+		<a href="#courses">Courses</a>
+		<a href="#contact">Contact</a>
 	</div>
 	</header>
 
-	<main id="inicio" class="hero">
+	<main id="home" class="hero">
 	<div class="container hero-grid">
 		<div>
 		<span class="kicker"><span class="dot"></span> Beta • MVP</span>
 		<h1>Connecting Talent with Industrialized Construction</h1>
 		<p class="subtitle">Intensive training, standardized installation, and qualified crews for manufacturers and builders. Evolut tracks on-site performance and accelerates the adoption of industrialized building systems.</p>
 		<div class="cta">
-			<a class="btn primary" href="#contacto">Get more information</a>
+			<a class="btn primary" href="#contact">Get more information</a>
 			<a class="btn ghost" href="#vision">How Evolut works</a>
 		</div>
 		</div>
-		<aside class="hero-card" aria-label="Puntos clave">
+		<aside class="hero-card" aria-label="Key points">
 		<h3>Why Evolut?</h3>
 		<ul>
 			<li>We solve the <strong>shortage of skilled labor</strong>.</li>
@@ -105,7 +108,7 @@
 	</div>
 	</section>
 
-	<section id="servicios">
+	<section id="services">
 	<div class="container">
 		<h3 class="sec-head">Our Services</h3>
 		<div class="grid-3">
@@ -125,16 +128,16 @@
 		<div class="band" style="margin-top:22px">
 		<strong>Are you a manufacturer or a contractor?</strong>
 		<div class="cta">
-			<a class="btn" href="#contacto">Book a call</a>
-			<a class="btn ghost" href="#cursos">View training program</a>
+			<a class="btn" href="#contact">Book a call</a>
+			<a class="btn ghost" href="#courses">View training program</a>
 		</div>
 		</div>
 	</div>
 	</section>
 
-	<section id="cursos">
+	<section id="courses">
 	<div class="container">
-		<h3 class="sec-head">Courses (first cohorts)s</h3>
+		<h3 class="sec-head">Courses (first cohorts)</h3>
 		<div class="grid-3">
 		<div class="card">
 			<h4>Steel Frame Installer — Level 1</h4>
@@ -164,7 +167,7 @@
 	</div>
 	</section>
 
-	<section id="contacto">
+	<section id="contact">
 	<div class="container">
 		<h3 class="sec-head">Contact</h3>
 		<div class="grid-3">
@@ -179,22 +182,22 @@
 			<label for="type">I am</label>
 			<select id="type" name="Perfil">
 				<option>Manufacturer</option>
-				<option>Contractor/option>
+				<option>Contractor</option>
 				<option>Installation crew</option>
 				<option>Other</option>
 			</select>
 			<label for="msg">Message</label>
 			<textarea id="msg" name="Mensaje" rows="5" required placeholder="Tell us about your project"></textarea>
 			<div class="cta">
-				<button type="submit" class="btn primary">Enviar</button>
-				<button type="reset" class="btn ghost">Limpiar</button>
+				<button type="submit" class="btn primary">Send</button>
+				<button type="reset" class="btn ghost">Clear</button>
 			</div>
 			</form>
 		</div>
 		<div class="card">
 			<img src="/imgs/logo.png" alt="logo evolutplatform">
 			<h4>Information</h4>
-			<p class="muted">Email: <a href="mailto:info@evolutplatform.es">admin@evolutplatform.com</a></p>
+			<p class="muted">Email: <a href="mailto:admin@evolutplatform.com">admin@evolutplatform.com</a></p>
 			<p class="muted">We operate in US • UK • ES</p>
 			<p class="muted">EVOLUT PLATFORM LLC (Wyoming, USA)</p>
 			
@@ -209,7 +212,7 @@
 		<img src="/imgs/logo.png" alt="Logo Evolut" width="50"/>
 		<small>© <span id="y"></span> Evolut Platform. All rights reserved.</small>
 		</div>
-		<small><a href="#inicio">Back to top</a></small>
+		<small><a href="#home">Back to top</a></small>
 	</div>
 	</footer>
 </body>
